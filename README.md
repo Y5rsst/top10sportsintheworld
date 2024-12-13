@@ -1,3 +1,3 @@
 # live
 
-https://github.com/Y5rsst/top10sportsintheworld.git
+https://y5rsst.github.io/top10sportsintheworld/
