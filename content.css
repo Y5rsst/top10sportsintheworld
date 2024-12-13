@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Julee&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+  
+
+  .heading1{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(footballheader.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading2{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(cricketheader.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }  
+
+  .heading3{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(fieldhockeyheader1.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading4{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(tennisheader1.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading5{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(volleyballheader1.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading6{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(tabletennisheader3.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading7{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(basketballheader1.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading8{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(baseballheader2.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading9{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(americanfootballheader5.jpg);
+    font-size: 30px;
+    font-family: "Rock Salt", serif;
+  }
+
+  .heading10{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(golfheader.jpg);
+    font-size: 40px;
+    font-family: "Rock Salt", serif;
+  }
+
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(22, 14, 14);
+    font-family: "Imbue", serif;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  #navbar a:hover {
+    font-style: italic;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar-center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+  
+
+  .grid-container {
+    display: block;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 250px;
+    gap: 10px;
+    background-color: rgba(102, 51, 153, 0.441);
+    padding: 10px;
+    font-family: "Caveat", serif;
+    font-size: 35px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(131, 238, 234, 0.522);
+    border: 10px dotted white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Julee", cursive;
+  }
+  
