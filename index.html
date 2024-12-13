@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Top 10 Sports in the World</title>
+        <style type="text/css">
+
+            @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Bungee+Shade&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Julee&family=Rock+Salt&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+            
+
+            body {
+                margin: 0;
+            }
+            .bgImage {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                background-image: url(sportstadiumbg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                animation: bgChange 20s linear infinite;
+
+            }
+            @keyframes bgChange {
+                0%{
+                    background-image: url(sportstadiumbg.jpg);
+                }
+                20%{
+                    background-image: url(sportstadiumbg.jpg);
+                }
+                25%{
+                    background-image: url(sportstadiumbg3.jpg);
+                }
+                45%{
+                    background-image: url(sportstadiumbg3.jpg);
+                }
+                50%{
+                    background-image: url(sportstadiumbg1.jpg);
+                }
+                70%{
+                    background-image: url(sportstadiumbg1.jpg);
+                }
+                75%{
+                    background-image: url(sportstadium2.jpg);
+                }
+                95%{
+                    background-image: url(sportstadium2.jpg);
+                }
+
+                
+            }
+            .overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0px;
+                left: 0px;
+                background-color: rgba(0, 0, 0, 0.396);
+            }
+            .content {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                z-index: 2;
+            }
+            .content h1 {
+                font-size: 60px;
+                font-family: "Bungee Shade", serif;
+                margin-bottom: 0;
+            }
+            .content h5 {
+                font-size: 40px;
+                font-family: "Arizonia", cursive;
+                width: auto;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+            .content button {
+                background-color: transparent;
+                color: white;
+                outline: none;
+                font-size: 30px;
+                font-family: "Pixelify Sans", sans-serif;
+                padding: 20px 33px;
+                text-transform: uppercase;
+                border-radius: 25px;
+                transition: .5s;
+            }
+            .content button:hover {
+                background-color: rgba(221, 160, 221, 0.466);
+                color: black;
+            }
+        </style>
+    </head>
+<body>
+    <div class="bgImage">
+        <div class="overlay"></div>
+
+        <div class="content">
+        <h1>Top 10 Sports in the World</h1>
+        <h5>Collected by, yours truly ;D</h5>
+        <button onclick="document.location='secondarywindow.html'">Proceed </button>
+        </div>
+    </div>
+
+
+</body>
+</html>
